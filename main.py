@@ -103,6 +103,7 @@ chain.add_transaction("Sarah","GG",150)
 #print(len(chain.current_transactions))
 for i in range(2):
   chain.mine("Will",difficulty = 6, size=3)
+  chain.mine("Simon",difficulty=1,size=0)
 #print(len(chain.current_transactions))
 #print(chain.hash(chain.last_block))
 
